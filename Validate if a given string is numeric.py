@@ -7,4 +7,4 @@ try:
     val=int(s)
     print("yes")
 except ValueError:
-    print("No")
+    print("no")
