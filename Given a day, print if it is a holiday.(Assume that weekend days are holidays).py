@@ -1,5 +1,5 @@
 r=input()
 if r=='Sunday' or r=='Saturday':
-  print("Yes")
+  print("yes")
 else:
   print("no")
