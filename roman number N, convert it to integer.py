@@ -22,14 +22,14 @@ def romanToDecimal(st):
 
         s1=value(st[i]) 
   
-        if(i+1 < len(st)): 
+        if(i+1<len(st)): 
 
             s2=value(st[i+1]) 
             if(s1>=s2): 
                 res=res+s1 
                 i=i+1
             else: 
-                res=res+s2s1 
+                res=res+s2-s1 
                 i=i+2
         else: 
             res=res+s1 
